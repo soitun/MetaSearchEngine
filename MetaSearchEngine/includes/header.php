@@ -1,0 +1,1 @@
+<img src="images/bingoLogo.png" width="334" height="162" alt="logo" />

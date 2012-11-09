@@ -1,0 +1,167 @@
+body {
+ 	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size:12px;
+	background-color: #8DA7C0;
+	margin: 0; /* it's good practice to zero the margin and padding of the body element to account for differing browser defaults */
+	padding: 0;
+	text-align: center; /* this centers the container in IE 5* browsers. The text is then set to the left aligned default in the #container selector */
+}
+
+#container {
+	width: 100%; /* this will create a container 100% of the browser width */
+	background-color: #8DA7C0;
+	margin: 0 auto; /* the auto margins (in conjunction with a width) center the page */
+/*	text-align: left; *//* this overrides the text-align: center on the body element. */	
+}
+#header { 
+	height: auto;
+	width: 100%; /* 960px */
+}
+#header h1 {
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 36px;
+	text-align: center;
+}
+#header p {
+	text-align: center;
+}
+#header img {
+	align: center;
+	text-align: center;
+	height: auto;
+	margin: auto;
+}
+#header form {
+	background-color: #8DA7C0; 
+	width: 860px; 
+	text-align: center; 
+	margin: auto;
+/*	padding: 10px 0; */ /* top and bottom padding create visual space within this div (right and left have no padding)*/
+}
+#footer {
+	height: 30px;
+	width: 100%; /* 960px */
+}
+#footer p {
+	color:#444444;
+	font-size:10px;
+	text-align:center;
+}
+#main {
+	background-color: #8DA7C0;
+	height: auto;
+	width: 100%; /* 960px */
+}
+
+#form {
+	background-color: #8DA7C0; 
+/*	width: 960px; */
+	width: 50%; 
+	margin: auto;
+	padding-bottom: 20px; /* top and bottom padding */
+}
+#searchText {
+	width:600px; 
+	padding: 3px 3px;	
+}
+#submit {
+	width:70px;	
+	padding: 3px 3px;
+}
+#synonyms { 
+	background-color: #8DA7C0;
+	display: block;
+ 	float: left;
+	height: auto;
+	width: 50%;
+	padding-left: 2.5%; 
+	padding-bottom: 5px;
+}
+
+#error {
+	background-color: #8DA7C0;
+	height: auto;
+	margin: auto; /* the auto margins (in conjunction with a width) center the page */
+	width: 100%; /* 960px */
+	padding: 5px 0; /* top and bottom padding create visual space within this div */
+}
+#error p {
+	text-align: center;
+	color:#F00
+}
+
+#pseudoRelevance {
+	background-color: #8DA7C0;
+	display: block;
+ 	float: left;
+	height: auto;
+	width: 15%;
+	padding-left: 10%; 
+}
+/*
+#pseudoRelevance h3 {
+	text-align: left;
+}
+*/
+#stats {
+	background-color: #8DA7C0;
+	display: block;
+ 	float: left;
+	height: auto;
+	width: 50%;
+	padding-left: 2.5%; 
+}
+
+#stats h3 {
+	text-align: left;
+}
+
+#metasearch {
+	background-color: #8DA7C0;
+	display: block; 
+ 	float: left; 
+	height: auto;
+	width: 50%; 
+	padding: 10px 0;
+}
+.searchresult {
+	text-align: left;
+}
+
+.searchresult .resulturl{
+	color:#F00;
+	font-style: normal;
+}
+.clear {
+	height: 0;
+	width: 0;
+	clear: both;
+}
+.leftAligned {
+	text-align: left;	
+}
+
+#result {
+	background-color: #8DA7C0;
+	height: auto;
+	width: 860px;
+	text-align: left;
+	margin-left: 50px;
+}
+h3 {
+	text-align: center;
+}
+.redtext{
+	color:#F00;
+}
+a {
+	text-decoration:none;
+}
+ul li {
+	list-style-type: none;
+}
+p {
+	text-align: left;	
+}
+
+
